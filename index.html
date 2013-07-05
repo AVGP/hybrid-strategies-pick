@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+    <head>
+        <title>From web apps to hybrid apps</title>
+        <link href="css/cw-presentation.css" rel="stylesheet" />
+    </head>
+    <body>
+        <img src="rocket.svg" id="indicator" />
+        <div id="impress">
+            <div class="step active" id="title" data-step="0" data-y="20000">
+                <h1>From web apps to hybrid mobile apps</h1>
+                <h2>Leveraging web technologies for making native mobile applications</h2>
+            </div>
+            <!-- -->
+            <div class="step" id="me" data-step="1" data-y="18000">
+                <h1>That's me</h1>
+                <p><span class="green">R&amp;D team</span> @ <span class="bold">Centralway</span></p>
+                <p>I <span class="red">&lt;3</span> the web</p>
+                <p><span class="brandico-twitter-bird"></span> <a href="https://twitter.com/avgp">@avgp</a></p>
+                <p>
+                    <span class="brandico-github"></span> 
+                    <a href="https://github.com/avgp">avgp</a> / 
+                    <a href="https://github.com/martin-naumann">martin-naumann</a>
+                </p>
+            </div>        
+            
+            <div class="step" id="content" data-step="2" data-y="16000">
+                <h1>What's in for you</h1>
+                <h2>3 months of research, cutting edge stuff &amp; lessons learnt</h2>
+                
+                <h1 class="red">What's <strong>not</strong> in for you</h1>
+                <h2>The one way, definitive decision, code</h2>
+            </div>
+                        
+            <div class="step" id="what-the-web" data-step="3" data-y="14000">
+                <h1>What the web can do</h1>
+                <div style="position: relative;">
+                    <div style="position: absolute;left:20px;top:220px;color: #afc">Camera</div>
+                    <div style="position: absolute;right:20px;top:0px; color:#ff8">Geolocation</div>
+                    <div style="position: absolute;left:400px; top:200px; color: #aff">Device Orientation</div>
+                    <div style="position: absolute;left:130px; top:40px; color: #cfa">Offline Mode</div>
+                    <div style="position: absolute;right:60px; top:270px; color: #f33">Battery</div>
+                    <div style="position: absolute;left:400px; top:400px; color: #3f3">Local Storage</div>
+                </div>
+            </div>
+            
+            <div class="step" id="what-hybrid-apps" data-step="4" data-y="12000" style="color: #8f8">
+                <h1>What hybrid apps are</h1>
+                <p>&nbsp;Web app</p>
+                <p>+ native extensions</p>
+                <p style="border-bottom:solid 1px #ccc">+ native packaging&amp; distribution</p>
+                <p style="color: #cff">Full appsomeness <span style="color:lightred">&lt;3</span></p>
+            </div>
+            
+            <div class="step" id="what-you-could-do" data-step="5" data-y="10000" style="color: #eff">
+                <h1>So much win</h1>
+                <h2>What you can do</h2>
+                <ul>
+                   <li>use all native APIs</li>
+                   <li>quickly iterate, multiple platforms</li>
+                   <li>write native extensions (when needed)</li>
+                   <li>publish &amp; distribute in app stores</li>
+                </ul>
+            </div>
+<!-- -->
+            <div class="step" id="approaches" data-step="6" data-y="8000" style="color: #eee;text-align:center">
+                <h1>Approaches</h1>
+                <img src="img/user.svg" width="5%" style="left: 5%;margin-bottom: 10%" />
+                <svg width="800" height="300">
+                    <rect x="25%" y="25%" rx="5%" ry="50%" width="50%" height="50%" stroke="blue" fill="lightblue" stroke-width="2" />
+                    <rect x="50%" y="25%" rx="5%" ry="50%" width="25%" height="50%" stroke="darkgreen" fill="palegreen" stroke-width="2" />
+                    <rect x="37.5%" y="25%" rx="5%" ry="50%" width="25%" height="50%" stroke="goldenrod" fill="orange" stroke-width="2" />
+
+                    <text x="30%" y="55%" fill="black">UI</text>
+                    <text x="43%" y="55%" fill="black">Logic</text>
+                    <text x="70%" y="55%" fill="black" transform="rotate(90 575,115)">APIs</text>
+                </svg>
+                <img src="img/gears.svg" width="10%" style="right: 10%;margin-bottom: 8%" />
+            </div>
+            
+            <div class="step" id="the-fundamental-question" data-step="7" data-y="6000" style="color: #fff">
+                <h1>Fundamental question</h1>
+                <h2 class="centered">
+                    <strong>HTML 5 / CSS / Javascript</strong> <br>
+                    - or - <br>
+                    <strong>Javascript-o-rama</strong>
+                </h2>                
+            </div>                        
+            
+            <div class="step" id="steps-to-fame" data-step="8" data-y="4000" style="color: #eee;">
+                <h1>General architecture</h1>
+                <ul>
+                    <li>
+                        <strong>UI:</strong>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>HTML / CSS / Javascript</li>
+                            <li>Native controls</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Logic:</strong>
+                        Javascript, lots of it
+                    </li>
+                    <li>
+                        <strong>Packaging:</strong>
+                        Native, multiple platforms
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="step" id="too-many-options" data-step="9" data-y="2000" style="color: #eee;text-align:center">
+                <h1>Warning!</h1>
+                <h2>The next slide may feel like this:</h2>
+                <img src="img/tank.gif" />
+            </div>
+            
+            <div class="step" id="choices" data-step="10" data-y="0" style="color: #eee;text-align:center">
+                <h1>Oh the options!</h1>
+                
+                <ul style="display:inline-block; width: 22%; text-align: left">
+                    <li><img src="img/html5.png" height="36"> jQ Widgets</li>
+                    <li><img src="img/html5.png" height="36"> Lungo</li>
+                    <li><img src="img/html5.png" height="36"> Kendo UI</li>
+                    <li>Mobello</li>
+                    <li>Jo</li>
+                </ul>
+
+                <ul style="display:inline-block; width: 22%; text-align: left">
+                    <li>Backbone</li>
+                    <li>Ember</li>
+                    <li>Angular</li>
+                    <li>Kendo</li>
+                    <li>Knockout</li>
+                </ul>
+                
+                <ul style="display:inline-block; width: 22%; text-align: left">
+                    <li><img src="img/html5.png" height="36"> Cordova</li>
+                    <li><img src="img/html5.png" height="36"> Calatrava</li>
+                    <li>Sencha</li>
+                    <li>Titanium</li>
+                    <li>M-Project</li>
+                </ul>
+                
+                <p>...that's the shortlist.</p>
+            </div>
+            
+            <div class="step" id="choosing-1" data-step="11" data-y="-2000" style="color: #eee;text-align:center">
+                <h1>How to choose:</h1>
+                <h2>I/V: What's the goal?</h2>
+            </div>
+
+            <div class="step" id="choosing-2" data-step="12" data-y="-4000" style="color: #eee;text-align:center">
+                <h1>How to choose:</h1>
+                <h2>II/V: Do you target multiple platforms from the beginning?</h2>
+            </div>
+            
+            <div class="step" id="choosing-3" data-step="13" data-y="-6000" style="color: #eee;text-align:center">
+                <h1>How to choose:</h1>
+                <h2>III/V: How many purely native features do you need? Which?</h2>
+            </div>
+
+            <div class="step" id="choosing-4" data-step="14" data-y="-8000" style="color: #eee;text-align:center">
+                <h1>How to choose:</h1>
+                <h2>IV/V: Where is the complexity?</h2>
+            </div>
+
+            <div class="step" id="choosing-5" data-step="15" data-y="-10000" style="color: #eee;text-align:center">
+                <h1>How to choose:</h1>
+                <h2>V/V: What about your team?</h2>
+            </div>
+            
+            <div class="step" id="test-not-trust" data-step="16" data-y="-12000" style="color: #eee;text-align:center">
+                <h1>Don't trust anybody, test it yourself</h1>
+                <h2>(Martin's rule of mobile app development)</h2>
+            </div>
+
+            <div class="step" id="thanks" data-step="17" data-y="-14000" style="color: #eee;text-align:center">
+                <h1>Thank you very much!</h1>
+                <h2>Questions?</h2>
+                <p>
+                    <a href="https://twitter.com/avgp">@avgp</a> |
+                    <a href="https://github.com/martin-naumann">github.com/martin-naumann</a> |
+                    <a href="https://github.com/centralway">github.com/centralway</a> | 
+                    <a href="http://engine.centralway.com">engine.centralway.com</a>
+                </p>
+            </div>
+            
+        <script src="js/rocket-slides.js"></script>
+        <script>
+        RocketSlides(document.getElementById('impress'));
+        </script>
+    </body>
+</html>
